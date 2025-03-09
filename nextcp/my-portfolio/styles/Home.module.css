@@ -1,0 +1,36 @@
+.container {
+    min-height: 100vh;
+    padding: 0 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .main {
+    padding: 5rem 0;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .title {
+    margin: 0;
+    line-height: 1.15;
+    font-size: 4rem;
+  }
+  
+  .description {
+    line-height: 1.5;
+    font-size: 1.5rem;
+  }
+  
+  .imageContainer {
+    margin-top: 2rem;
+  }
+  
+  .profileImage {
+    border-radius: 50%;
+  }
